@@ -10,6 +10,6 @@ public class AIControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        agent = this.GetComponent<NavMeshAgent>();
+        agent = this.GetComponent<NavMeshAgent>(); //Pegar o Componente da malha do agente para ser usado no método do AgentManager
     }
 }
